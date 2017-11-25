@@ -5,7 +5,7 @@
 /*  FileName : abc-user.ecm                                                       */
 /*  Platform : MySQL 5                                                            */
 /*  Version  :                                                                    */
-/*  Date     : vrijdag 24 november 2017                                           */
+/*  Date     : zaterdag 25 november 2017                                          */
 /*================================================================================*/
 /*================================================================================*/
 /* CREATE TABLES                                                                  */
@@ -44,8 +44,8 @@ CREATE INDEX `IX_FK_ABC_AUTH_USER2` ON `ABC_AUTH_USER` (`pro_id`);
 /*================================================================================*/
 
 ALTER TABLE `ABC_AUTH_USER`
-  ADD CONSTRAINT `FK_ABC_AUTH_USER_AUT_COMPANY`
-  FOREIGN KEY (`cmp_id`) REFERENCES `AUT_COMPANY` (`cmp_id`);
+  ADD CONSTRAINT `FK_ABC_AUTH_USER_ABC_AUTH_COMPANY`
+  FOREIGN KEY (`cmp_id`) REFERENCES `ABC_AUTH_COMPANY` (`cmp_id`);
 
 ALTER TABLE `ABC_AUTH_USER`
   ADD CONSTRAINT `FK_ABC_AUTH_USER_ABC_BABEL_LANGUAGE`

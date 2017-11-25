@@ -1,9 +1,9 @@
 {
-  "name": "setbased/abc-company",
-  "description": "ABC-Framework: Company",
+  "name": "setbased/abc-user",
+  "description": "ABC-Framework: User",
   "keywords": [
     "ABC-Framework",
-    "Company"
+    "User"
   ],
   "type": "library",
   "license": "MIT"
