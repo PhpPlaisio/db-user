@@ -1,4 +1,4 @@
-# PhpPlaisio: Dababase - User
+# PhpPlaisio: Database - User
 
 <table>
 <thead>
