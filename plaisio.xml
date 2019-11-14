@@ -1,4 +1,4 @@
-<abc>
+<plaisio>
     <database>
         <provides>
             <table>ABC_AUTH_USER</table>
@@ -12,4 +12,4 @@
             <script>lib/ddl/0100_create_tables.sql</script>
         </scripts>
     </database>
-</abc>
+</plaisio>
