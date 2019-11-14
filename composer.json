@@ -1,10 +1,9 @@
 {
-  "name": "setbased/abc-user",
-  "description": "ABC-Framework: User",
+  "name": "plaisio/db-user",
+  "description": "PhpPlaisio: Database - User",
+  "license": "MIT",
   "keywords": [
-    "ABC-Framework",
+    "PhpPlaisio",
     "User"
-  ],
-  "type": "library",
-  "license": "MIT"
+  ]
 }
