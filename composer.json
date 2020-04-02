@@ -5,5 +5,8 @@
   "keywords": [
     "PhpPlaisio",
     "User"
-  ]
+  ],
+  "require": {
+    "php": ">=7.3"
+  }
 }
