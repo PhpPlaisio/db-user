@@ -16,7 +16,7 @@ CREATE TABLE `ABC_AUTH_USER` (
   `cmp_id` SMALLINT UNSIGNED NOT NULL,
   `lan_id` TINYINT UNSIGNED NOT NULL,
   `pro_id` SMALLINT UNSIGNED,
-  `usr_name` VARCHAR(64) CHARACTER SET utf8 COLLATE utf8_general_ci,
+  `usr_name` VARCHAR(64),
   `usr_password_hash` VARCHAR(60) CHARACTER SET ascii COLLATE ascii_bin,
   `usr_anonymous` BOOL,
   `usr_last_login` TIMESTAMP DEFAULT now(),
