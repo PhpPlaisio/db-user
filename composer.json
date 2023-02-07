@@ -7,6 +7,6 @@
     "User"
   ],
   "require": {
-    "php": ">=7.4"
+    "plaisio/console-stratum": "^1.0.0"
   }
 }
